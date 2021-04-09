@@ -30,3 +30,10 @@ plt.plot(X, regr.predict(X), color='blue')
 
 plt.show()
 plt.gcf().clear()
+
+print( 'Predicted blood pressure at 30 y.o.   = ', regr.predict([[30]]) )
+print( 'Predicted blood pressure at 35 y.o.   = ', regr.predict([[35]]) )
+print( 'Predicted blood pressure at 40 y.o.   = ', regr.predict([[40]]) )
+print( 'Predicted blood pressure at 44.5 y.o. = ', regr.predict([[44.5]]) )
+print( 'Predicted blood pressure at 71 y.o.   = ', regr.predict([[71]]) )
+
