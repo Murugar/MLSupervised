@@ -1,0 +1,8 @@
+# MLSupervised    
+
+
+python blood.py  
+
+
+
+
